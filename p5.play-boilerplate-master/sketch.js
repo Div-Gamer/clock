@@ -54,9 +54,8 @@ push()
 
 
 strokeWeight(8)
- stroke("green")
 
-stroke("blue")
+
 
 
 
@@ -66,10 +65,12 @@ noFill()
 
 
 
+stroke("blue")
 
 arc(0,0,300,300,0,scAngle)
+  stroke("green")
 arc(0,0,330,330,0,mnAngle)
-
+stroke("red")
 arc(0,0,270,270,0,hrAngle)
 
   console.log(mn)
